@@ -1,0 +1,10 @@
+export const baseUrl = 'https://api.themoviedb.org/3'
+export const API_KEY = "777bc7434008d4af815fd65af56bea99"
+export const imageUrl = "https://image.tmdb.org/t/p/original"
+export const NETFLIXORGINALS = `https://api.themoviedb.org/3/discover/tv?api_key=${API_KEY}&with_networks=213`
+export const ACTION = `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=28`
+export const TRENDING = `https://api.themoviedb.org/3/trending/all/week?api_key=${API_KEY}&language=en-US`
+export const COMEDY = `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=35`
+export const HORROR = `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=27`
+export const  ROMANTIC = `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=10749`
+export const  DOCUMENTRY = `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=99`

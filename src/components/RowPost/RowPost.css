@@ -1,0 +1,50 @@
+.row {
+    margin-left: 20px;
+    color: white;
+
+}
+
+.posters {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
+
+.poster {
+    max-height: 250px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.smallPoster {
+    margin-right: 10px;
+    max-height: 150px;
+    cursor: pointer;
+}
+
+.poster:hover,
+.smallPoster:hover {
+    transform: scale(1.1);
+}
+
+.fa-close {
+    font-size: 26px;
+    float: right;
+    cursor: pointer;
+    margin-right: 30px
+}
+
+.textSkelton{
+    background-color: #fff;
+    width: 100%;
+}
+
+.largerPosterSkelton {
+    width: 50%;
+    margin-left: 20px; 
+}
